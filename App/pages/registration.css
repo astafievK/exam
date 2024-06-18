@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  align-self: center;
+  display: inline-flex;
+  flex-direction: column;
+}
+form label:not(:first-child) {
+  margin-top: 1rem;
+}
+form input {
+  margin-top: 5px;
+  padding: 1rem;
+  font-size: 1.7rem;
+}
+form #createSubmit {
+  cursor: pointer;
+  margin-top: 5px;
+  padding: 1rem 2rem;
+  font-size: 1.7rem;
+}
+form a {
+  text-align: center;
+}
+
+/*# sourceMappingURL=registration.css.map */

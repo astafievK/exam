@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    align-self: center;
+    display: inline-flex;
+    flex-direction: column;
+
+    label:not(:first-child){
+        margin-top: 1rem;
+    }
+
+    input {
+        margin-top: 5px;
+        padding: 1rem;
+        font-size: 1.7rem;
+    }
+
+    #createSubmit {
+        cursor: pointer;
+        margin-top: 5px;
+        padding: 1rem 2rem;
+        font-size: 1.7rem;
+    }
+
+    a {
+        text-align: center;
+    }
+}

@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  background: #e8e8e8;
+  color: #000000;
+  font-size: 2rem;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+}
+body header {
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  gap: 40px;
+  height: 80px;
+  font-size: 24px;
+  box-shadow: 0 0 30px 0 black;
+  border-radius: 0 0 24px 24px;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  background: #d293ff;
+}
+body header .search-box form input[type=text] {
+  height: 100%;
+  font-size: 20px;
+  border-radius: 7px;
+  border: none;
+  padding: 0 1rem;
+}
+body header .filters form label {
+  padding: 0 1rem;
+  cursor: pointer;
+  display: flex;
+  text-wrap: nowrap;
+  align-items: center;
+  border-radius: 7px;
+  background: rgba(128, 128, 128, 0.45);
+  gap: 5px;
+  height: 100%;
+}
+body header .filters form label:hover {
+  background: rgba(128, 128, 128, 0.7);
+}
+body header .filters form input[type=radio] {
+  display: none;
+}
+body header .filters form input[type=radio]:checked + label {
+  background: white;
+}
+body header .header-elem {
+  height: 100%;
+}
+body header .header-elem form {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  gap: 10px;
+}
+body header .header-elem form button[type=submit] {
+  height: 100%;
+  font-size: 16px;
+  padding: 0 1rem;
+  cursor: pointer;
+  font-weight: 700;
+  background: #e1e1e1;
+  border-radius: 7px;
+  border: none;
+}
+body header .header-elem form button[type=submit]:hover {
+  background: #c5c5c5;
+}
+
+/*# sourceMappingURL=style.css.map */
